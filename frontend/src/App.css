@@ -1,0 +1,252 @@
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffe6f1; /* Light pink background */
+}
+
+a {
+  color: #ff66b2; /* Light pink link color */
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+}
+
+.home-container {
+  max-width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.left-side,
+.right-side {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-side img {
+  max-width: 100%;
+  height: 70%;
+}
+
+.right-side {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+span {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.f-letter {
+  font-size: 3em;
+  color: #ff66b2; /* Pink color */
+}
+
+.s-letter {
+  font-size: 2.2em;
+  color: #ff66b2; /* Pink color */
+}
+
+.t-letter {
+  font-size: 1.5em;
+  color: #ff66b2; /* Pink color */
+}
+
+/************************************************************/
+.main {
+  padding: 10px;
+  height: 92.1vh;
+  background-color: #ffebf2; /* Light pink background */
+}
+
+.layout {
+  display: flex;
+}
+
+.sidebar {
+  min-height: 100%;
+  height: 88vh;
+  width: 17vw;
+  border-radius: 5px;
+  background-color: #ff99cc; /* Light pink sidebar */
+  box-shadow: 0 0 2px grey;
+  margin-right: 20px;
+  color: white; /* Sidebar text color set to white */
+}
+
+.sidebar a {
+  color: white; /* Sidebar links text color set to white */
+  text-decoration: none;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  height: 10vh;
+  margin-bottom: 20px;
+  box-shadow: 0 0 2px grey;
+  background-color: #fff0f5; /* Lighter pink header */
+  border-radius: 5px;
+}
+
+.header h2 {
+  color: white; /* Change header text color to white */
+  text-align: center;
+}
+
+.body {
+  height: 75vh;
+  margin-bottom: 20px;
+  box-shadow: 0 0 2px grey;
+  background-color: #fff0f5; /* Lighter pink body */
+  border-radius: 5px;
+}
+
+.logo h2 {
+  text-align: center;
+  margin: 20px 0px;
+  color: white; /* Logo heading color changed to white */
+}
+
+.menu {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-items {
+  margin-top: 20px;
+}
+
+.menu-items p {
+  text-align: center;
+  color: white; /* Menu text color changed to white */
+  text-decoration: none;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.menu-items .icons {
+  font-size: 1.2rem;
+  margin: 0 15px;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  justify-content: flex-start;
+  margin: auto 15px;
+}
+
+.notify {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+sup {
+  margin-right: 15px;
+}
+
+.notify .icon {
+  margin-right: 10px;
+  font-size: 1.5rem;
+}
+
+
+/**********************************************/
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 2px grey;
+  background-color: #fff0f5; /* Lighter pink box */
+  max-width: 700px;
+  width: 100%;
+}
+
+.component {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  border: 2px dashed grey;
+  border-radius: 10px;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.component p {
+  margin: 10px 0;
+  color: grey;
+}
+
+.btn-progress {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.btn-progress button {
+  color: grey;
+  padding: 10px 20px;
+  margin-right: 10px;
+}
+
+.btn-progress button:hover {
+  box-shadow: 0 0 10px grey;
+}
+
+progress {
+  width: 100%;
+  height: 10px;
+  appearance: none;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+
+progress::-webkit-progress-bar {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+
+progress::-webkit-progress-value {
+  background-color: #ff66b2; /* Pink progress value */
+  border-radius: 10px;
+}
