@@ -21,3 +21,4 @@ router.post("/getreject", authMiddleware, getStatusRejectController);
 router.get('/getallAppointmentsAdmin', authMiddleware, displayAllAppointmentController)
 
 module.exports = router;
+//abc
